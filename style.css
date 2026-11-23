@@ -1,0 +1,104 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #08111f;
+    color: #fff;
+    font-family: 'Clash Display', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+
+}
+
+.topbar {
+    background: #1a2b3c;
+    min-height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 4%;
+    border-bottom: 1px solid #2a3d59;
+    
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.brand-logo {
+    background: #2a3d59;
+    padding: 15px 19px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+   
+}
+
+.brand h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-family: 'Clash Display', Tahoma, Geneva, Verdana, sans-serif;
+}
+.brand p {
+    font-size: 12px;
+    color: #a0a0a0;
+    letter-spacing: 1px;
+    font-family: 'Clash Display', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    display: flex;
+    gap: 20px;
+
+}
+nav a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+   font-family: 'Clash Display', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold
+
+}
+nav a:hover {
+    color:iceblue;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #39d6a0;
+    font-size: 14px;
+}
+
+.online-dot {
+    width: 10px;
+    height: 10px;
+    background: #00ff00;
+    border-radius: 50%;
+    #clock {
+    color: white;
+    margin-left: 20px;
+    font-family: monospace;
+}
+button {
+    background-color: #39d6a0;
+    color: #03265a;
+    border: 0;
+    padding: 13px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Clash Display', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #32c28a;
+}
+   
+
